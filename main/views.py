@@ -1,6 +1,7 @@
 from multiprocessing import context
 from django.shortcuts import render
 from django.http import HttpResponse
+
 # Create your views here.
 def index(request):
     return render(request, '/Users/tanajkhanuja/Desktop/bee/main/templates/main/index.html')
@@ -12,6 +13,9 @@ def signup(request):
 def login(request):
     context = {}
     return render(request, '/Users/tanajkhanuja/Desktop/bee/main/templates/main/login.html' , context)
+
+def logout(request):
+    pass
 
 def market(request):
     context = {}
