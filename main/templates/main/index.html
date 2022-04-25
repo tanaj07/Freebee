@@ -1,0 +1,31 @@
+{% load static %}
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href=" {% static '/css/index.css' %} ">
+      
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<body>
+    {% include '/Users/tanajkhanuja/Desktop/bee/main/templates/main/navbar.html' %}
+    {%block  navbar%}
+    
+    {%endblock %} 
+    <div class="main" id="main">
+        <h1> HOME OF FREELANCING </h1>
+        <img src='{% static 'static/images/1.png' %}'>
+ 
+    </div>
+    {% include '/Users/tanajkhanuja/Desktop/bee/main/templates/main/Content.html' %}
+    {% block content %}
+    {% endblock content %}
+
+
+    {% include '/Users/tanajkhanuja/Desktop/bee/main/templates/main/footer.html' %}
+    {% block footer%}
+    {% endblock footer%}      
+
+
+                        
+</body>
