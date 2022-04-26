@@ -1,4 +1,6 @@
 {% load static %}
+
+
 <title>Home</title>
 <link rel="stylesheet" type="text/css" href=" {% static '/css/index.css' %} ">
       
@@ -13,8 +15,14 @@
     
     {%endblock %} 
     <div class="main" id="main">
-        <h1> HOME OF FREELANCING </h1>
-        <img src='{% static 'static/images/1.png' %}'>
+        
+        <img src="/static/images/1.png" class="img-fluid" alt="1" />
+        <button type="button" class="btn btn-warning"  >Get Started</button>
+        <hr>
+        <img src="/static/images/2.png" class="img-fluid" alt="2" />
+        
+
+        <hr>
  
     </div>
     {% include '/Users/tanajkhanuja/Desktop/bee/main/templates/main/Content.html' %}
