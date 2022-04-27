@@ -35,3 +35,28 @@ def logout(request):
 def market(request):
     context = {}
     return render(request,'/Users/tanajkhanuja/Desktop/bee/main/templates/main/marketplace.html', context)
+
+def Graphicsanddesign(request):
+    return render(request,'/Users/tanajkhanuja/Desktop/bee/main/templates/main/Graphicsanddesign.html')
+
+def Business(request):
+    return render(request, '/Users/tanajkhanuja/Desktop/bee/main/templates/main/business.html')
+
+def Data(request):
+    return render(request, '/Users/tanajkhanuja/Desktop/bee/main/templates/main/data.html')
+
+def Marketing(request):
+    return render(request , '/Users/tanajkhanuja/Desktop/bee/main/templates/main/marketing.html')
+
+def Musicandaudio(request):
+    return render(request, '/Users/tanajkhanuja/Desktop/bee/main/templates/main/Musicandaudio.html')
+
+def Programming(request):
+    return render(request , '/Users/tanajkhanuja/Desktop/bee/main/templates/main/Programming.html')
+
+def video(request):
+    return render(request , '/Users/tanajkhanuja/Desktop/bee/main/templates/main/video.html' )
+
+def Writing(request):
+    return render(request, '/Users/tanajkhanuja/Desktop/bee/main/templates/main/writing.html')
+
