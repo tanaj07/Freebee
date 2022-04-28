@@ -60,3 +60,5 @@ def video(request):
 def Writing(request):
     return render(request, '/Users/tanajkhanuja/Desktop/bee/main/templates/main/writing.html')
 
+def Pricing(request):
+    return render(request, '/Users/tanajkhanuja/Desktop/bee/main/templates/main/pricing.html')

@@ -10,7 +10,7 @@ urlpatterns = [
     path('signup/', views.signup, name="signup"), 
     path('login/', views.login, name="login" ), 
     path('marketplace/', views.market , name="marketplace" ) , 
-
+    path('pricing/', views.Pricing , name="pricing") ,
     path('graphics/',views.Graphicsanddesign , name="graphicsanddesign"),
     path('business/', views.Business , name="business") ,
     path('data/', views.Data , name="Data"), 
