@@ -19,7 +19,7 @@ urlpatterns = [
     path('programming/', views.Programming , name="programming") ,
     path('video/', views.video , name="video"),
     path('Writing/', views.Writing , name="writing") , 
-
+    path('pricing/', views.Pricing, name="pricing")
 
 ]
 

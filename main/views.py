@@ -57,4 +57,4 @@ def Writing(request):
     return render(request, '/Users/tanajkhanuja/Desktop/bee/main/templates/main/writing.html', context)
 
 def Pricing(request):
-    return render(request, '/Users/tanajkhanuja/Desktop/bee/main/templates/main/pricing.html', )
+    return render(request, '/Users/tanajkhanuja/Desktop/bee/main/templates/main/pricing.html' )
